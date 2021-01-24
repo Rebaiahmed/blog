@@ -2,10 +2,10 @@
   "name": "RebaiAhmedBlog",
   "version": "1.21.0",
   "private": true,
-  "description": "gatsby-starter-chronoblog",
+  "description": "Personal blog of Rebai Ahmed",
   "keywords": [],
   "license": "MIT",
-  "author": "Ivan Ganev <ganevio92@gmail.com>",
+  "author": "Rebai Ahmed <rebai.ahmed@outlook.com>",
   "scripts": {
     "build": "gatsby build",
     "clean": "gatsby clean",
@@ -29,5 +29,5 @@
   "engines": {
     "node": ">=10.15.0"
   },
-  "starter-name": "gatsby-starter-chronoblog"
+  "starter-name": "rebai-ahmed-blog"
 }

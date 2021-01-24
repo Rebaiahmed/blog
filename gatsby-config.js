@@ -1,33 +1,33 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: 'Chronoblog Starter',
-    siteDescription: 'Starter for Gatsby Theme Chronoblog',
+    siteTitle: 'RebaiAhmed HomePage',
+    siteDescription: 'Personal blog of Rebai Ahmed',
     siteImage: '/banner.png', // main image of the site for metadata
     siteUrl: 'https://chronoblog.now.sh/',
     pathPrefix: '/',
     siteLanguage: 'en',
     ogLanguage: `en_US`,
-    author: 'Site Author', // for example - 'Ivan Ganev'
-    authorDescription: 'short author description', // short text about the author
+    author: 'Rebai Ahmed', // for example - 'Ivan Ganev'
+    authorDescription: 'Software Engineer • Full Stack Web Developer', // short text about the author
     avatar: '/avatar.jpg',
     twitterSite: '', // website account on twitter
     twitterCreator: '', // creator account on twitter
     social: [
       {
         icon: `at`,
-        url: `mailto:mymail@mail.com`
+        url: `rebai.ahmed@outlook.com`
       },
       {
         icon: `twitter`,
-        url: `https://twitter.com/ganevru`
+        url: `https://twitter.com/RebaiAhmed_`
       },
       {
         icon: `github`,
-        url: `https://github.com/Chronoblog/gatsby-theme-chronoblog`
+        url: `https://github.com/Rebaiahmed`
       },
       {
         icon: `node-js`,
-        url: `https://www.npmjs.com/package/gatsby-theme-chronoblog`
+        url: `https://stackoverflow.com/users/5330655/rebai-ahmed`
       }
     ]
   },
