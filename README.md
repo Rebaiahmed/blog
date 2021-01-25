@@ -46,7 +46,7 @@ A quick look at the folder structure of this project.
 
 ## Tools Used
 
-. Gatsby.js (of course)
+ Gatsby.js (of course)
 
 
 
