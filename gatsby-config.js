@@ -4,7 +4,7 @@ module.exports = {
     siteTitle: 'RebaiAhmed HomePage',
     siteDescription: 'Personal blog of Rebai Ahmed',
     siteImage: '/banner.png', // main image of the site for metadata
-    siteUrl: 'https://chronoblog.now.sh/',
+    siteUrl: 'https://rebaiahmed.github.io/blog/',
     pathPrefix: '/',
     siteLanguage: 'en',
     ogLanguage: `en_US`,
