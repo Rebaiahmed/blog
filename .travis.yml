@@ -1,9 +1,16 @@
 language: node_js
 node_js:
+<<<<<<< HEAD
   - 'stable'
 cache:
   directories:
     - node_modules
+=======
+  - "stable"
+cache:
+  directories:
+  - node_modules
+>>>>>>> 63fbaf82a7a7bc94bca4ba401774a851ea86535f
 deploy:
   provider: pages
   skip-cleanup: true
@@ -11,6 +18,7 @@ deploy:
   local_dir: public
   keep-history: true
   on:
+<<<<<<< HEAD
     branch: main
 before_script:
   - 'npm i -g gatsby'
@@ -19,3 +27,13 @@ script:
   - 'npm run test'
 after_success:
   - 'npm run deploy'
+=======
+    branch: master
+before_script:
+  - "npm i -g gatsby"
+  - "npm i"
+script:
+  - "npm run test"
+after_success:
+  - "npm run deploy"
+>>>>>>> 63fbaf82a7a7bc94bca4ba401774a851ea86535f
