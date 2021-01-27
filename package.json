@@ -7,10 +7,10 @@
   "license": "MIT",
   "author": "Rebai Ahmed <rebai.ahmed@outlook.com>",
   "scripts": {
-    "build": "gatsby build",
-    "clean": "gatsby clean",
-    "start": "gatsby develop",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -r https://bb1135ff7c2ca6beb8215d7742171370fa27f188@github.com/Rebaiahmed/blog.git"
+   "build": "gatsby build",
+"test": "echo \"no test specified\" && exit 0",
+"preDeploy": "gatsby build --prefix-paths",
+"deploy": "npm run preDeploy && gh-pages -d public"
   },
   "dependencies": {
     "gatsby": "^2.23.3",
