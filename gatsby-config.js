@@ -63,7 +63,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Chronoblog Gatsby Theme`,
-        short_name: `Chronoblog`,
+        short_name: `rebai-ahmed-blog`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#3a5f7d`,
@@ -77,7 +77,6 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        // replace "UA-XXXXXXXXX-X" with your own Tracking ID
         trackingId: 'UA-120229914-2'
       }
     }
