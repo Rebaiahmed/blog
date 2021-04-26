@@ -9,8 +9,8 @@
 title:       Type
 email:       ''
 description: ''
-baseurl:     'https://github.com/Rebaiahmed/blog' # The subpath of your site, e.g. /blog
-url:         'https://rebaiahmed.github.io/blog/' # The base hostname & protocol for your site
+url: rebaiahmed.github.io
+baseurl: /blog
 twitter:     ''
 github:      ''
 instagram:   ''
