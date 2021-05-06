@@ -154,6 +154,8 @@ GEM
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-swiss (1.0.0)
+    jekyll-tagging (1.1.0)
+      nuggets
     jekyll-theme-architect (0.1.1)
       jekyll (~> 3.5)
       jekyll-seo-tag (~> 2.0)
@@ -223,6 +225,7 @@ GEM
       racc (~> 1.4)
     nokogiri (1.11.3-x64-mingw32)
       racc (~> 1.4)
+    nuggets (1.6.0)
     octokit (4.21.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
@@ -261,6 +264,8 @@ GEM
       unf_ext
     unf_ext (0.0.7.7)
     unicode-display_width (1.7.0)
+    wdm (0.1.1)
+    webrick (1.7.0)
     zeitwerk (2.4.2)
 
 PLATFORMS
@@ -269,6 +274,9 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-tagging
+  wdm
+  webrick (~> 1.7)
 
 BUNDLED WITH
    2.2.17
