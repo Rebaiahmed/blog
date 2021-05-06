@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title:       Type
+title:       Blog
 email:       ''
 description: ''
 baseurl:     '' # The subpath of your site, e.g. /blog
@@ -45,4 +45,8 @@ defaults:
   - scope:
       path: '_pages'
     values:
+<<<<<<< Updated upstream
       permalink: /:basename:output_ext
+=======
+      permalink: /:title
+>>>>>>> Stashed changes

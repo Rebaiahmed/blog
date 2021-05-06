@@ -63,9 +63,14 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+<<<<<<< Updated upstream
   bundler
   jekyll (~> 4.0)
   jekyll-paginate
+=======
+  github-pages
+  jekyll-redirect-from
+>>>>>>> Stashed changes
   jekyll-tagging
 
 BUNDLED WITH
